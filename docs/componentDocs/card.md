@@ -2,11 +2,11 @@
 卡片组件
 
 ### 示例
-<dh-card imgSrc="/test1.jpg" summary="test" />
+<dh-card imgSrc="/dhgateUI/test1.jpg" summary="test" />
 
 ### 代码
 ```html
-<dh-card imgSrc="/test1.jpg" summary="test" />
+<dh-card imgSrc="/dhgateUI/test1.jpg" summary="test" />
 ```
 ### Attributes
 | 参数 | 说明 | 类型 | 是否必要 | 默认值 |
