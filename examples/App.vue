@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <zxj-button>默认</zxj-button>
+    <zxj-card></zxj-card>
+    <br>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import {ZxjButton,ZxjCard} from 'vue-zxj-ui/components/lib'
 
 export default {
+  components:{
+    ZxjButton,ZxjCard
+  },
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
