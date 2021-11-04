@@ -1,0 +1,43 @@
+.card-stack{
+    position: relative;
+    width: 200px;
+    height: 260px;
+    padding: 0;
+    margin: 0 auto;
+    pointer-events: none;
+    perspective: 1000px;
+    perspective-origin: 50% 150%;
+    -webkit-perspective: 1000px;
+    -webkit-perspective-origin: 50% 150%;
+    // box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #f2f2f2, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 0 1em 0 -0.5em #e5e5e5, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+
+
+    &-item{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        border-radius: 4px;
+        list-style: none;
+        overflow: hidden;
+        opacity: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: auto;
+
+        
+        img{
+            width: 100%;
+            display: block;
+            pointer-events: none;
+        }
+    }
+}

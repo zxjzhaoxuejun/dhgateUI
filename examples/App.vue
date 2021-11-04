@@ -1,19 +1,44 @@
 <template>
   <div id="app">
-    <zxj-button>默认</zxj-button>
-    <zxj-card></zxj-card>
+    <!-- <zxj-button>默认</zxj-button>
+    <zxj-card></zxj-card> -->
     <br>
+    <card-stack :cardList="cardList"></card-stack>
   </div>
 </template>
 
 <script>
-import {ZxjButton,ZxjCard} from 'vue-zxj-ui/components/lib'
+// import {ZxjButton,ZxjCard} from 'vue-zxj-ui/components/lib'
 
 export default {
-  components:{
-    ZxjButton,ZxjCard
-  },
+  // components:{
+  //   ZxjButton,ZxjCard
+  // },
   name: 'App',
+  data(){
+    return {
+      cardList:[
+        {
+          html: `<div>标题1</div><img src="${require('./../public/test1.jpg')}" alt="01">`
+        },
+        {
+          html: `<div>标题2</div><img src="${require('./../public/2.png')}" alt="02">`
+        },
+    {
+          html: `<div>标题3</div><img src="${require('./../public/3.png')}" alt="03">`
+        },
+        {
+          html: `<div>标题1</div><img src="${require('./../public/test1.jpg')}" alt="01">`
+        },
+        {
+          html: `<div>标题2</div><img src="${require('./../public/2.png')}" alt="02">`
+        },
+    {
+          html: `<div>标题3</div><img src="${require('./../public/3.png')}" alt="03">`
+        },
+      ]
+    }
+  }
 }
 </script>
 

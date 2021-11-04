@@ -1,9 +1,13 @@
 import TestDemo from './demo/index'
 import DhCard from './card/index'
+import DhButton from './button'
+import VueShare from './VueShare'
 
 const components=[
     TestDemo,
-    DhCard
+    DhCard,
+    DhButton,
+    VueShare
 ]
 
 const install = function(Vue) {
@@ -27,5 +31,7 @@ export default {
 export {
     install,
     TestDemo,
-    DhCard
+    DhCard,
+    DhButton,
+    VueShare
 }

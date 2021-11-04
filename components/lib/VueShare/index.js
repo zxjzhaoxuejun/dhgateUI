@@ -1,5 +1,5 @@
 
-import VueShare from './VueShare.vue'
+import VueShare from './src/VueShare.vue'
 
 VueShare.install = function(Vue) {
   Vue.component(VueShare.name, VueShare)

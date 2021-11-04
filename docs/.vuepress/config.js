@@ -15,7 +15,8 @@ module.exports = {
       sidebar: [
         '/',
         '/componentDocs/card',
-        '/componentDocs/vueShare'
+        '/componentDocs/vueShare',
+        '/componentDocs/button',
       ]
     }
   }

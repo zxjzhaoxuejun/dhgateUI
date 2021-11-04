@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name:'zxj-button',
+    name:'dh-button',
     props:{
         size:{
             type:String,//medium / small / mini
@@ -30,5 +30,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+@import './button.scss';
 </style>

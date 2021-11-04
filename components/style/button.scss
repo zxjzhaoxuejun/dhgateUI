@@ -1,0 +1,81 @@
+.zxj-button,.zxj-button-medium{
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    cursor: pointer;
+    line-height: 1;
+    white-space: nowrap;
+    text-align: center;
+}
+.zxj-button-small{
+    padding: 4px 8px;
+    font-size: 12px;
+}
+.zxj-button-mini{
+    padding: 2px 4px;
+    font-size: 10px;
+}
+.zxj-button-success{
+    color: #fff;
+    background-color: #67c23a;
+    border-color: #67c23a;
+    &.is-plain{
+        color: #67c23a;
+    background: #f0f9eb;
+    border-color: #c2e7b0
+    }
+    
+}
+.zxj-button-warning{
+color: #fff;
+    background-color: #e6a23c;
+    border-color: #e6a23c;
+    &.is-plain{
+        color: #e6a23c;
+        background: #fdf6ec;
+        border-color: #f5dab1;
+    }
+}
+.zxj-button-danger{
+    color: #fff;
+    background-color: #f56c6c;
+    border-color: #f56c6c;
+    &.is-plain{
+        color: #f56c6c;
+    background: #fef0f0;
+    border-color: #fbc4c4;
+    }
+}
+.zxj-button-info{
+    color: #fff;
+    background-color: #909399;
+    border-color: #909399;
+    &.is-plain{
+        color: #909399;
+    background: #f4f4f5;
+    border-color: #d3d4d6;
+    }
+}
+.zxj-button-text{
+    border-color: transparent;
+    color: #409eff;
+    background: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+.zxj-button-primary {
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+    &.is-plain{
+        color: #409eff;
+        background: #ecf5ff;
+        border-color: #b3d8ff;
+    }
+}
+.is-round{
+    border-radius: 20px;
+}
