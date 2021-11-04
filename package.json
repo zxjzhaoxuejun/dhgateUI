@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "npm run build:js && npm run build:css",
-    "lint": "vue-cli-service lint",
+    "lint": "eslint --ext .js,.vue components",
     "build:js": "webpack --config ./webpack.config.js",
     "build:css": "npx gulp sass",
     "docs:dev": "vuepress dev docs",

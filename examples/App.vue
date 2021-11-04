@@ -3,7 +3,10 @@
     <!-- <zxj-button>默认</zxj-button>
     <zxj-card></zxj-card> -->
     <br>
-    <card-stack :cardList="cardList"></card-stack>
+    <!-- <card-stack :card-list="cardList" /> -->
+    <div style="width:220px;height:300px;">
+      <TestCard />
+    </div>
   </div>
 </template>
 
@@ -15,16 +18,16 @@ export default {
   //   ZxjButton,ZxjCard
   // },
   name: 'App',
-  data(){
+  data() {
     return {
-      cardList:[
+      cardList: [
         {
           html: `<div>标题1</div><img src="${require('./../public/test1.jpg')}" alt="01">`
         },
         {
           html: `<div>标题2</div><img src="${require('./../public/2.png')}" alt="02">`
         },
-    {
+        {
           html: `<div>标题3</div><img src="${require('./../public/3.png')}" alt="03">`
         },
         {
@@ -33,9 +36,9 @@ export default {
         {
           html: `<div>标题2</div><img src="${require('./../public/2.png')}" alt="02">`
         },
-    {
+        {
           html: `<div>标题3</div><img src="${require('./../public/3.png')}" alt="03">`
-        },
+        }
       ]
     }
   }

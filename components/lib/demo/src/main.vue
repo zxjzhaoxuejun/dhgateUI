@@ -1,16 +1,15 @@
 <template>
-<div class="m-demo">
+  <div class="m-demo">
     demo32323
-</div>
+  </div>
 </template>
 
 <script>
 export default {
-name:'TestDemo',
-data(){return {}}
+  name: 'TestDemo',
+  data() { return {} }
 }
 </script>
 
 <style scoped>
-
 </style>
